@@ -21,13 +21,22 @@ const Header = () => {
 
     const toContact = () => {
         // push('/Contact') 
-        break
+    
     }
 
     return(
+
+
+        
         <div class="header">
             <img class="img" src="Moonraker-horizontal.jpeg" alt="moonraker logo"/>               
             <Nav class="nav">
+                <div>
+                <h6>
+                    temporary
+                </h6>            
+                </div>
+
                 <button class='button' onClick={toMoonraker}>
                     Home
                 </button>
