@@ -5,12 +5,12 @@ const Works = ()=>{
     return(
         <>
             <h1 class="title">Examples of our work</h1>
-            {/* <div>
+            <div>
                 <h6>t</h6>
                 <img class="image" src='MMC_Icon_Gold.jpg' alt='earrings'/>
                 <img class="image" src='MMC_Icon_Gold.jpg' alt='earrings'/>
                 <img class="image" src='MMC_Icon_Gold.jpg' alt='earrings'/>
-            </div> */}
+            </div>
         </>
     )
 }
