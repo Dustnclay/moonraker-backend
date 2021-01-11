@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/AboutMe.css'
-import laurenpic from '../../public/lauren-img.png'
+import laurenpic from './images/lauren-img.png'
 
 
 const Moonraker = () => {
