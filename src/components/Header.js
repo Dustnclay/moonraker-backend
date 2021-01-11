@@ -1,26 +1,27 @@
 import React from 'react';
-import {useHistory} from 'react-router-dom'
-import {Button, Nav} from 'reactstrap'
+// import {useHistory} from 'react-router-dom'
+// import {Button, Nav} from 'reactstrap'
 import '../styles/Header.css'
 
 const Header = () => {
 
-    const {push} = useHistory()
+    // const {push} = seHistory()
 
     const toHome = () => {
-        push('/Examples')
+        // push('/Examples')
     }
 
     const toAbout = () => {
-        push('/About')
+        // push('/About')
     }
 
     const toMoonraker = () => {
-        push('/Moonraker')
+        // push('/Moonraker')
     }
 
     const toContact = () => {
-        push('/Contact')
+        // push('/Contact') 
+        break
     }
 
     return(
