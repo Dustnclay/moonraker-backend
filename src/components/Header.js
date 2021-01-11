@@ -34,6 +34,8 @@ const Header = () => {
                 <div>
                 <h6>
                     temporary
+                    <h2>temp temp
+                        </h2>
                 </h6>            
                 </div>
 
