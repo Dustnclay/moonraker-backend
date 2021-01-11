@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 // import Examples from './components/Examples'
 import Capturing from './components/Capturing'
 // import Contact from './components/Contact'
-// import AboutMe from './components/AboutMe'
+import AboutMe from './components/AboutMe'
 
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
         <div class="page">
           {/* <Route path='/About' component={About}/> */}
           <Capturing/>
-          {/* <Route path='/Merchandise' component={Moonraker}/>
+          {/* <Route path='/Merchandise' component={Moonraker}/> */}
           <AboutMe/>
-          <Route path='/Contact' component={Contact}/>
+          {/* <Route path='/Contact' component={Contact}/>
           <Contact/>          
           <Route exact path='/' component={Examples}/>
           <Examples/> */}
