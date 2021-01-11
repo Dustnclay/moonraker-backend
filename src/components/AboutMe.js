@@ -16,7 +16,7 @@ const Moonraker = () => {
                       a conference or concert, my goal is to capture the greatest parts of your event for you to look back on after the party’s over.
                       So let’s get together create memories that last!</p>
             </div>
-            <img class="lauren-img" src="lauren-img.png" alt="image of Lauren"/>        
+            <img class="lauren-img" src="lauren-img.png" alt="Lauren"/>        
         </div>
     )
 }
