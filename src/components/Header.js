@@ -29,7 +29,7 @@ const Header = () => {
 
         
         <div class="header">
-            <img class="img" src="Moonraker-horizontal.jpeg" alt="moonraker logo"/>               
+            <img class="img" src="../public/Moonraker-horizontal.jpeg" alt="moonraker logo"/>               
             <div class="nav">
                 <div>
                 <h6>
