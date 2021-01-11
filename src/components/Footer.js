@@ -1,11 +1,10 @@
 import React from 'react';
 import "../styles/Footer.css"
-import logo from "./images/moonraker-text-under.jpeg"
 
 const Footer = () => {
     return(
         <div class="footer">
-            <img class="footerImage" src={logo} alt="logo"/>
+            <img class="footerImage" src={"./moonraker-text-under.jpeg"} alt="logo"/>
         </div>
     )
 }
