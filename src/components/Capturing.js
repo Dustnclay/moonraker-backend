@@ -30,4 +30,4 @@ const Capturing = () => {
     )
 }
 
-export default About
+export default Capturing
