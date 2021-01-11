@@ -30,7 +30,7 @@ const Header = () => {
         
         <div class="header">
             <img class="img" src="Moonraker-horizontal.jpeg" alt="moonraker logo"/>               
-            <Nav class="nav">
+            <div class="nav">
                 <div>
                 <h6>
                     temporary
@@ -51,7 +51,7 @@ const Header = () => {
                 <button class='button' onClick={toAbout}>
                     About me
                 </button>                
-            </Nav>
+            </div>
             <iframe
             width="100%" height="360"
             src="https://www.youtube.com/embed?v=AjPau5QYtYs?autoplay=1&mute=1&playlist=AjPau5QYtYs&loop=1">
