@@ -2,7 +2,7 @@
 // import './styles/App.css';
 // // import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Header from './components/Header'
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 // import Examples from './components/Examples'
 // import About from './components/Capturing'
 // import Contact from './components/Contact'
@@ -22,8 +22,8 @@ function App() {
           <Contact/>          
           <Route exact path='/' component={Examples}/>
           <Examples/>
-        </div>
-      <Footer/>  */}
+        </div> */}
+      <Footer/> 
     </>
   );
 }
