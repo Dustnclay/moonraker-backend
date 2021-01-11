@@ -2,9 +2,6 @@ import React from 'react';
 import "../styles/Examples.css"
 
 const Work = () => {
-    
-    // const season = 'fall'
-
     return(
         <>
             <h1 class="title">Examples of our work</h1>
