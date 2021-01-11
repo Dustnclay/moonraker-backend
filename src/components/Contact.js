@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 
 const Contact = () => {
-    const [formField, setFormField] = useState({
-        name:'',
-        email:'',
-        message:''
-    })
+    // const [formField, setFormField] = useState({
+    //     name:'',
+    //     email:'',
+    //     message:''
+    // })
     return(
         <>
          <h1 class="title">Contact us</h1>
