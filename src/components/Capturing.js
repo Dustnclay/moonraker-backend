@@ -1,6 +1,6 @@
 import React from 'react';
 import "../styles/Capturing.css"
-import meaningpic from "../images/Meaningful-Moments.png"
+import meaningpic from "./images/Meaningful-Moments.png"
 
 
 const Capturing = () => {

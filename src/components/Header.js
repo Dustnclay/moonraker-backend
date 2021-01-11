@@ -2,7 +2,7 @@ import React from 'react';
 // import {useHistory} from 'react-router-dom'
 // import {Button, Nav} from 'reactstrap'
 import '../styles/Header.css'
-import logo from "../images/Moonraker-horizontal.jpeg"
+import logo from "./images/Moonraker-horizontal.jpeg"
 
 const Header = () => {
 
@@ -32,14 +32,6 @@ const Header = () => {
         <div class="header">
             <img class="img" src={logo} alt="moonraker logo"/>               
             <div class="nav">
-                <div>
-                <h6>
-                    temporary
-                    <h2>temp temp
-                        </h2>
-                </h6>            
-                </div>
-
                 <button class='button' onClick={toMoonraker}>
                     Home
                 </button>
