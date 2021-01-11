@@ -1,13 +1,13 @@
 import React from 'react';
 import "../styles/Capturing.css"
-import meaningpic from "./images/Meaningful-Moments.png"
+
 
 
 const Capturing = () => {
     return(
         <div class="body">
             
-            <img src={meaningpic} alt="capturing lifes moments"/>
+            <img src={'./Meaningful-Moments.png'} alt="capturing lifes moments"/>
             
             <div class="right-half">
                 <div class="right-upper">
