@@ -4,7 +4,7 @@
 import Header from './components/Header'
 import Footer from './components/Footer';
 // import Examples from './components/Examples'
-// import About from './components/Capturing'
+import Capturing from './components/Capturing'
 // import Contact from './components/Contact'
 // import AboutMe from './components/AboutMe'
 
@@ -15,7 +15,7 @@ function App() {
       <Header/>
         <div class="page">
           {/* <Route path='/About' component={About}/> */}
-          <About/>
+          <Capturing/>
           {/* <Route path='/Merchandise' component={Moonraker}/>
           <AboutMe/>
           <Route path='/Contact' component={Contact}/>
