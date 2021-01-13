@@ -27,7 +27,7 @@ const Header = () => {
 
     return(
         <div class="header">
-            <img class="img" src={'./Moonraker-horizontal.jpeg'} alt="moonraker logo"/>               
+            <img class="img" src={require('./Moonraker-horizontal.jpeg')} alt="moonraker logo"/>               
             <div class="nav">
                 <button class='button' onClick={toMoonraker}>
                     Home
