@@ -4,7 +4,7 @@ import "../styles/Footer.css"
 const Footer = () => {
     return(
         <div class="footer">
-            <img class="footerImage" src={require("moonrakerdevelopment-git-main.dustnclay.vercel.app/moonraker-text-under.jpeg")} alt="logo"/>
+            <img class="footerImage" src={"moonrakerdevelopment-git-main.dustnclay.vercel.app/moonraker-text-under.jpeg"} alt="logo"/>
         </div>
     )
 }
