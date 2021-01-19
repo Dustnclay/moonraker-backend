@@ -6,7 +6,7 @@ const Works = ()=>{
         <>
             <h1 class="title">Examples of our work</h1>
             <div>
-                <img class="image" src={require('MMC_Icon_Gold.jpg')} alt='instagram'/>
+                <img class="image" src={require('/MMC_Icon_Gold.jpg')} alt='instagram'/>
                 <img class="image" src={require('MMC_Icon_Gold.jpg')} alt='instagram'/>
                 <img class="image" src={require('MMC_Icon_Gold.jpg')} alt='instagram'/>
             </div>

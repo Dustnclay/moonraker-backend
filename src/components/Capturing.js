@@ -7,7 +7,7 @@ const Capturing = () => {
     return(
         <div class="body">
             
-            <img src={require('./Meaningful-Moments.png')} alt="capturing lifes moments"/>
+            <img src={require('moonrakerdevelopment-git-main.dustnclay.vercel.app/Meaningful-Moments.png')} alt="capturing lifes moments"/>
             
             <div class="right-half">
                 <div class="right-upper">
