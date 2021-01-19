@@ -27,7 +27,7 @@ const Header = () => {
 
     return(
         <div class="header">
-            <img class="img" src={'moonrakerdevelopment.dustnclay.vercel.app/Moonraker-horizontal.jpeg'} alt="moonraker logo"/>               
+            <img class="img" src={'moonrakerdevelopment.dustnclay.vercel.app/public/Moonraker-horizontal.jpeg'} alt="moonraker logo"/>               
             <div class="nav">
                 <button class='button' onClick={toMoonraker}>
                     Home
