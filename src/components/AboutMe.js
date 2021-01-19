@@ -7,6 +7,9 @@ const Moonraker = () => {
     return(
         <div class="moonrakerbody">
             <div>
+                <h6>
+                    temp
+                </h6>
                 <h2>I'm</h2>
                 <h1 class="name">Lauren</h1>
                 <p>I’m a filmmaker based out of Colorado Springs, and I love my job. Since 2015,
@@ -17,7 +20,7 @@ const Moonraker = () => {
                       a conference or concert, my goal is to capture the greatest parts of your event for you to look back on after the party’s over.
                       So let’s get together create memories that last!</p>
             </div>
-            <img class="lauren-img" src={'moonrakerdevelopment-git-main.dustnclay.vercel.app/lauren-img.png'} alt="Lauren"/>        
+            <img class="lauren-img" src={'moonrakerdevelopment.dustnclay.vercel.app/lauren-img.png'} alt="Lauren"/>        
         </div>
     )
 }
