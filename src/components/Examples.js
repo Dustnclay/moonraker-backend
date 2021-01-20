@@ -6,9 +6,9 @@ const Works = ()=>{
         <>
             <h1 class="title">Examples of our work</h1>
             <div>
-                <img class="image" src={'moonrakerdevelopment.dustnclay.vercel.app/public/MMC_Icon_Gold.jpg'} alt='instagram'/>
-                <img class="image" src={'moonrakerdevelopment.dustnclay.vercel.app/public/MMC_Icon_Gold.jpg'} alt='instagram'/>
-                <img class="image" src={'moonrakerdevelopment.dustnclay.vercel.app/public/MMC_Icon_Gold.jpg'} alt='instagram'/>
+                <img class="image" src={'moonrakerdevelopment.vercel.app/MMC_Icon_Gold.jpg'} alt='instagram'/>
+                <img class="image" src={'moonrakerdevelopment.vercel.app/MMC_Icon_Gold.jpg'} alt='instagram'/>
+                <img class="image" src={'moonrakerdevelopment.vercel.app/MMC_Icon_Gold.jpg'} alt='instagram'/>
             </div>
         </>
     )
