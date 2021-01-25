@@ -1,3 +1,11 @@
+/* Elements */
+
+h2{
+  padding-left: 6em;
+}
+
+/* Classes */
+
 .App {
   text-align: center;
 }
@@ -35,4 +43,63 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.capture-body{
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  font-size: 1.2 em;
+}
+
+.capture-button{
+  padding:.5em 3em .5em 3em;
+  /* width:5em; */
+  /* justify-content: center;
+  align-items: center; */
+  border-top:0 ;
+  border-right:.2em black solid;    
+  border-left:0 ;
+  border-bottom:.2em black solid;
+}
+
+.capture_p{
+  padding-left:1.2em
+}
+
+.capture-right-half{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.moonrakerbody{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding:4em;
+  background-color:blue;
+  background-image: url(AboutMe.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titleName{
+  font-size: 5em; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 3.4em;
+}
+
+
+
+/* //image classes// */
+.lauren-img{
+  height:30em;
+}
+
+.meaningImg{
+  height:30em;
 }

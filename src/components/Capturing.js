@@ -1,15 +1,15 @@
 import React from 'react';
-import "../styles/Capturing.css"
+// import "../styles/Capturing.css"
 
 
 
 const Capturing = () => {
     return(
-        <div class="body">
+        <div class="capture-body">
             
-            <img src={'/Meaningful-Moments.png'} alt="capturing lifes moments"/>
+            <img class="meaningImg" src={'/Meaningful-Moments.png'} alt="capturing lifes moments"/>
             
-            <div class="right-half">
+            <div class="capture-right-half">
                 <div class="right-upper">
                     <ul>
                         <li>Weddings</li>
@@ -22,10 +22,10 @@ const Capturing = () => {
                         <li>Mission Trips</li>
                     </ul>
 
-                    <p class="list_p">What event do you have coming up?</p>                    
+                    <p class="capture_p">What event do you have coming up?</p>                    
                 </div>
 
-                <button>Lets talk!</button>
+                <button class="capture-button">Lets talk!</button>
             </div>
         </div>
     )

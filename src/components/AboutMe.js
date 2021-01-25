@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/AboutMe.css'
+// import '../styles/AboutMe.css'
 
 
 
@@ -11,7 +11,7 @@ const Moonraker = () => {
                     temp
                 </h6>
                 <h2>I'm</h2>
-                <h1 class="name">Lauren</h1>
+                <h1 class="titleName">Lauren</h1>
                 <p>I’m a filmmaker based out of Colorado Springs, and I love my job. Since 2015,
                      working on a variety of projects, I have found that filming events is my passion. 
                      Why? Because there is nothing I love more than a celebration. 
