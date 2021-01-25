@@ -1,8 +1,4 @@
 import React from 'react';
-// import {useHistory} from 'react-router-dom'
-// import {Button, Nav} from 'reactstrap'
-import '../styles/Header.css'
-// import logo from "./Moonraker-horizontal.jpeg"
 
 const Header = () => {
 
@@ -27,7 +23,7 @@ const Header = () => {
 
     return(
         <div class="header">
-            <img class="img" src={'moonraker-horizontal.jpeg'} alt="moonraker logo"/>               
+            <img class="header-img" src={'moonraker-horizontal.jpeg'} alt="moonraker logo"/>               
             <div class="nav">
                 <button class='header-button' onClick={toMoonraker}>
                     Home
@@ -43,8 +39,8 @@ const Header = () => {
                 </button>                
             </div>
             <iframe title="headervid"
-            width="100%" height="360"
-            src="https://www.youtube.com/embed?v=AjPau5QYtYs?autoplay=1&mute=1&playlist=AjPau5QYtYs&loop=1">
+            width="100%" height="560"
+            src="https://www.youtube.com/embed/x8ccDb6n5Wg?autoplay=1&mute=1&playlist=AjPau5QYtYs&loop=1">
             </iframe>
         </div>
 
