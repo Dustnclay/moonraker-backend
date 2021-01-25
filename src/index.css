@@ -87,6 +87,14 @@ h2{
   align-items: center;
 }
 
+.footer {
+  background-color: #231F20;
+}
+
+.footerText{
+  color:white
+}
+
 .moonrakerbody{
   display:flex;
   flex-direction: row;
@@ -107,10 +115,25 @@ h2{
   padding-left: 3.4em;
 }
 
+/* button classes */
+
+.header-button {
+  border: none;
+  color:white;
+  padding:0;
+  text-decoration: none;
+  background:transparent;
+}
+
 /* //image classes// */
 .example-image{
   width:30%;
   height:30%
+}
+
+.footerImage{
+  height:7em;
+  /* width:25%; */
 }
 
 .lauren-img{
