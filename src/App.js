@@ -19,7 +19,7 @@ function App() {
           {/* <Route path='/Merchandise' component={Moonraker}/> */}
           <AboutMe/>
           {/* <Route path='/Contact' component={Contact}/> */}
-          <Contact/>          
+          {/* <Contact/>           */}
           {/* <Route exact path='/' component={Examples}/> */}
           <Examples/>
         </div>
