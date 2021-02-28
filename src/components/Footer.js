@@ -5,7 +5,7 @@ const Footer = () => {
         <div class="footer">
             <img class="footerImage" src={"/moonraker-text-under.jpeg"} alt="logo"/>
             <a class="footerlink" href="https://www.facebook.com/moonraker.media" target="_blank"rel="noreferrer">Facebook</a> 
-            <a class="footerlink" href="https://www.youtube.com/moonraker.media" target="_blank" rel="noreferrer">Youtube</a> 
+            <a class="footerlink" href="https://www.youtube.com/channel/UCS0ETeAkqiuEMFsZ5hrxXMQ" target="_blank" rel="noreferrer">Youtube</a> 
             <span class="footerdiv">
                 <p> 
                     Lauren@moonraker.media.com <br/>

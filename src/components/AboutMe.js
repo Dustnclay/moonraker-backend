@@ -6,7 +6,7 @@ const Moonraker = () => {
     return(
         <div class="moonrakerbody">
             <div>
-                <h2>I'm</h2>
+                <h2 class="aboutIm">I'm</h2>
                 <h1 class="titleName">Lauren</h1>
                 <p>I’m a filmmaker based out of Colorado Springs, and I love my job. Since 2015,
                    working on a variety of projects, I have found that filming events is my passion. 

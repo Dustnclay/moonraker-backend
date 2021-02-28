@@ -16,19 +16,20 @@ code {
 
 /* Elements */
 
-h2{
-  padding-left: 6em;
-}
+
 
 a {
   text-decoration: none;
 }
 
 a:hover{
-  color:aqua;
+  color:#2c4c55;
 }
 
 /* Classes */
+.aboutIm{
+  padding-left: 6em;
+}
 
 .capture-body{
   background-color: #2c4c55;
@@ -36,6 +37,11 @@ a:hover{
   justify-content:space-evenly;
   align-items: center;
   font-size: 1.2 em;
+}
+@media only screen and (max-width: 550px){
+  .capture-body{
+    flex-direction: column;
+  }
 
 }
 
@@ -48,6 +54,7 @@ a:hover{
   border-right:.2em black solid;    
   border-left:0 ;
   border-bottom:.2em black solid;
+  margin:8%;
 }
 
 .capture_p{
@@ -66,11 +73,7 @@ a:hover{
   flex-direction:row;
   padding:7%
 }
-@media only screen and (max-width: 500px) {
-  .example-container{
-    flex-direction: column;
-  }
-}
+
 
 .example-image-container{
   width:70%;
@@ -86,13 +89,33 @@ a:hover{
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 720px) {
+  .example-container{
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    /* margin:auto; */
+  }
+  .example-image-container{
+    width:100%;
+    margin:auto
+  }
+  .example-follow{
+    margin:auto;
+    width:90%;
+  }
+}
 
 .footer {
   background-color: #231F20;
   color:antiquewhite;
   display:flex;
   justify-content: space-between;
-  /* flex-direction: row; */
+  align-items: center;
+}
+@media only screen and (max-width: 720px) {
+  .footer {
+flex-direction: column;
+  }
 }
 
 .footerdiv p{
@@ -102,9 +125,6 @@ text-align: center;
 .footerlink{
   color:white;
   text-decoration: none;
-}
-.footerlink:hover{
-  color:aqua;
 }
 
 .footerText{
@@ -117,7 +137,7 @@ text-align: center;
   justify-content: center; 
   align-items: center;
   padding-top: 1em;
-  padding-bottom: 5em;
+  /* padding-bottom: 5em; */
   background-color:black;
 }
 
@@ -126,7 +146,7 @@ text-align: center;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding:4em;
+  padding:4%;
   /* background-color:rgb(171, 171, 206); */
   background-image: url("AboutMe.png");
   background-attachment: fixed;
@@ -134,6 +154,12 @@ text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
 } 
+@media only screen and (max-width: 550px){
+  .moonrakerbody{
+    flex-direction: column-reverse;
+  }
+}
+
 
 .nav {
   width:60%;
@@ -146,8 +172,18 @@ text-align: center;
 .titleName{
   font-size: 5em; 
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding-left: 3.4em;
+  padding-left: 34%;
+  margin:0%
 }
+@media only screen and (max-width: 550px){
+  .aboutIm{
+    padding-left:20%
+  }
+  .titleName{
+    padding-left: 28%;
+  }
+}
+
 
 /* button classes */
 
@@ -191,6 +227,18 @@ text-align: center;
   text-decoration: none;
   font-size: 1.5em;
 }
-.iglink:hover{
-  color:aqua;
+
+@media only screen and (max-width: 550px) {
+  .lauren-img{
+    min-width: 12em;
+  }
+  .meaningImg{
+    min-width:20em;
+  }
+  .example-image{
+    width:10em;
+    height:10em;
+    padding:0em;
+    
+  }
 }
