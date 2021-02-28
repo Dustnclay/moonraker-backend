@@ -5,7 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer';
 import Examples from './components/Examples'
 import Capturing from './components/Capturing'
-import Contact from './components/Contact'
+// import Contact from './components/Contact'
 import AboutMe from './components/AboutMe'
 
 
