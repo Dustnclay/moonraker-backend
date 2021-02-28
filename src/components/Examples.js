@@ -15,7 +15,7 @@ const Works = ()=>{
             </div>
             <div class="example-follow">
                 <h1>Follow</h1>
-                <a id="iglink" href="https://www.instagram.com/moonraker.media" target="_blank">@Moonraker.Media</a> 
+                <a class="iglink" href="https://www.instagram.com/moonraker.media" target="_blank">@Moonraker.Media</a> 
                 <h1>on Instagram </h1>
             </div>
 
