@@ -25,6 +25,11 @@ a:hover{
   color:#2c4c55;
 }
 
+button{
+  background-color: white;
+}git add .example-follow
+
+
 /* Classes */
 
 
@@ -222,7 +227,7 @@ margin-top: 0;
 }
 @media only screen and (max-width: 550px){
   .aboutIm{
-    padding-left:16%;
+    padding-left:6%;
     margin:0
   }
 }
