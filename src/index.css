@@ -226,8 +226,16 @@ margin-top: 0;
   margin:0%
 }
 @media only screen and (max-width: 550px){
+  .aboutdiv{
+    margin:auto
+  }
+
+  .titleName{
+    font-size: 4em;
+  }
+  
   .aboutIm{
-    padding-left:6%;
+    /* padding-left:3%; */
     margin:0
   }
 }
