@@ -1,16 +1,18 @@
 import React from 'react';
 
 const Footer = () => {
+    
     return(
+        
         <div class="footer">
+            <p></p>
             <div class="footer-top">
                 <img class="footerImage" src={"/moonraker-text-under.jpeg"} alt="logo"/>
                 <div class="footerlinksdiv">
-                    <a class="footerlink" href="https://www.facebook.com/moonraker.media" target="_blank"rel="noreferrer">Facebook</a> 
-                    <a class="footerlink" href="https://www.youtube.com/channel/UCS0ETeAkqiuEMFsZ5hrxXMQ" target="_blank" rel="noreferrer">Youtube</a>                 
+                    <a class="footerlink" href="https://www.facebook.com/Moonraker-Media-Co-103785678200787" target="_blank"rel="noreferrer">FACEBOOK</a> 
+                    <a class="footerlink" href="https://www.youtube.com/channel/UCS0ETeAkqiuEMFsZ5hrxXMQ" target="_blank" rel="noreferrer">YOUTUBE</a>                 
                 </div>                
             </div>
-
             <span class="footerdiv">
                 <p> 
                     Lauren@moonraker.media.com <br/>

@@ -26,16 +26,16 @@ const Header = () => {
             <img class="header-img" src={'moonraker-horizontal.jpeg'} alt="moonraker logo"/>               
             <div class="nav">
                 <button class='header-button' onClick={toMoonraker}>
-                    Home
+                    HOME
                 </button>
                 <button class='header-button' onClick={toHome}>
-                    Films
+                    FILMS
                 </button>
                 <button class='header-button' onClick={toContact}>
-                    Pricing
+                    PRICING
                 </button>
                 <button class='header-button' onClick={toAbout}>
-                    About me
+                    ABOUT ME
                 </button>                
             </div>
 
