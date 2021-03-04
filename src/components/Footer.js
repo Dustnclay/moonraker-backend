@@ -1,11 +1,10 @@
 import React from 'react';
 
 const Footer = () => {
-    
+
     return(
         
         <div class="footer">
-            <p></p>
             <div class="footer-top">
                 <img class="footerImage" src={"/moonraker-text-under.jpeg"} alt="logo"/>
                 <div class="footerlinksdiv">
