@@ -1,17 +1,18 @@
 import React from 'react';
 
 const Works = ()=>{
+    console.log("yayyy")
     return(
         <div class="example-container">
             <div class="example-image-container">
-                <img class="example-image" src={'/MMC_Icon_Gold.jpg'} alt='instagram'/>
-                <img class="example-image" src={'/MMC_Icon_Gold.jpg'} alt='instagram'/>
-                <img class="example-image" src={'/MMC_Icon_Gold.jpg'} alt='instagram'/>
-                <img class="example-image" src={'/MMC_Icon_Gold.jpg'} alt='instagram'/>
-                <img class="example-image" src={'/MMC_Icon_Gold.jpg'} alt='instagram'/>
-                <img class="example-image" src={'/MMC_Icon_Gold.jpg'} alt='instagram'/>
-                <img class="example-image" src={'/MMC_Icon_Gold.jpg'} alt='instagram'/>
-                <img class="example-image" src={'/MMC_Icon_Gold.jpg'} alt='instagram'/>
+                <img class="example-image" src={'/igImages/lauren001.jpg'} alt='instagram'/>
+                <img class="example-image" src={'/igImages/lauren003.jpg'} alt='instagram'/>
+                <img class="example-image" src={'/igImages/lauren004.jpg'} alt='instagram'/>
+                <img class="example-image" src={'/igImages/lauren005.jpg'} alt='instagram'/>
+                <img class="example-image" src={'/igImages/lauren006.png'} alt='instagram'/>
+                <img class="example-image" src={'/igImages/lauren007.jpg'} alt='instagram'/>
+                <img class="example-image" src={'/igImages/lauren002.jpg'} alt='instagram'/>
+                <img class="example-image" src={'/igImages/lauren008.png'} alt='instagram'/>
             </div>
             <div class="example-follow">
                 <h1>Follow</h1>
