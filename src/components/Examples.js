@@ -15,9 +15,9 @@ const Works = ()=>{
                 <img class="example-image" src={'/igImages/lauren008.png'} alt='instagram'/>
             </div>
             <div class="example-follow">
-                <h1>Follow</h1>
+                <h2>Follow</h2>
                 <a class="iglink" href="https://www.instagram.com/moonraker.media" target="_blank" rel="noreferrer">@MOONRAKER.Media</a> 
-                <h1>on Instagram </h1>
+                <h2>on Instagram </h2>
             </div>
 
         </div>
