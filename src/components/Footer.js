@@ -15,7 +15,7 @@ const Footer = () => {
             <span class="footerdiv">
                 <p> 
                     Lauren@moonraker.media.com <br/>
-                    Colorado Springs, CO 80918<br/>
+                    Colorado Springs, CO 80903<br/>
                     (845) 636 0824
                 </p>    
             </span>
