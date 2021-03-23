@@ -255,7 +255,10 @@ text-align: center;
 /* //image classes// */
 
 .example-image{
+  object-fit: cover;
   flex: 1 0 21%;
+  width:21%;
+  /* height:auto; */
   margin:1%
 }
 
@@ -294,6 +297,7 @@ text-align: center;
   }
   .example-image{
     flex:none;
+    object-fit: cover;
     width:9em;
     height:9em;
     padding:0em;
