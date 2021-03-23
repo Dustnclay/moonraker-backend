@@ -81,12 +81,13 @@ button{
 .example-container{
   display:flex;
   flex-direction:row;
-  padding:7%
+  padding:4%
 }
 
 
 .example-image-container{
   display:flex;
+  width:70%;
   flex-wrap:wrap;
   justify-content: space-evenly;
 }
@@ -94,7 +95,7 @@ button{
 .example-follow{
   display:flex;
   flex-direction: column;
-  width:25%;
+  /* width:25%; */
   justify-content: center;
   align-items: center;
 }
