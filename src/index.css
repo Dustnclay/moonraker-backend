@@ -20,9 +20,9 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (min-width: 1300px){
+@media only screen and (min-width: 1400px){
   body{
-    font-size: x-large;
+    font-size: large;
   }
 }
 
