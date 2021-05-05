@@ -297,7 +297,7 @@ text-align: center;
   }
   .example-image{
     flex:none;
-    object-fit: cover;
+    
     width:9em;
     height:9em;
     padding:0em;
