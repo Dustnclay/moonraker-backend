@@ -91,7 +91,6 @@ button{
   width:70%;
   flex-wrap:wrap;
   justify-content: space-evenly;
-  height: 600px
 }
 
 .example-follow{
@@ -256,10 +255,10 @@ text-align: center;
 /* //image classes// */
 
 .example-image{
-  object-fit: cover;
+/*   object-fit: cover; */
   flex: 1 0 21%;
   width:21%;
-  /* height:auto; */
+  height:auto;
   margin:1%
 }
 
