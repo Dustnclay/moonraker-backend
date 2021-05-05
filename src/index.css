@@ -91,6 +91,7 @@ button{
   width:70%;
   flex-wrap:wrap;
   justify-content: space-evenly;
+  height: 600px
 }
 
 .example-follow{
