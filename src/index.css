@@ -258,7 +258,7 @@ text-align: center;
 /*   object-fit: cover; */
   flex: 1 0 21%;
   width:21%;
-  height:auto;
+  height:75px;
   margin:1%
 }
 
