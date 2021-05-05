@@ -258,7 +258,7 @@ text-align: center;
 /*   object-fit: cover; */
   flex: 1 0 21%;
   width:21%;
-  height:75px;
+  height:130px;
   margin:1%
 }
 
@@ -299,7 +299,7 @@ text-align: center;
     flex:none;
     
     width:9em;
-    height:9em;
+    height:75px;
     padding:0em;
   }
 }
