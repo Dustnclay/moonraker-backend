@@ -255,10 +255,10 @@ text-align: center;
 /* //image classes// */
 
 .example-image{
-  object-fit: cover;
+/*   object-fit: cover; */
   flex: 1 0 21%;
   width:21%;
-  /* height:auto; */
+  height:175px;
   margin:1%
 }
 
@@ -297,9 +297,9 @@ text-align: center;
   }
   .example-image{
     flex:none;
-    object-fit: cover;
+    
     width:9em;
-    height:9em;
+    height:75px;
     padding:0em;
   }
 }
