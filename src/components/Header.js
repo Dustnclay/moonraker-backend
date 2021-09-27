@@ -24,19 +24,7 @@ const Header = () => {
     return(
         <div class="header">
             <img class="header-img" src={'moonraker-horizontal.jpeg'} alt="moonraker logo"/>               
-            <div class="nav">
-                <button class='header-button' onClick={toMoonraker}>
-                    HOME
-                </button>
-                <button class='header-button' onClick={toHome}>
-                    FILMS
-                </button>
-                <button class='header-button' onClick={toContact}>
-                    PRICING
-                </button>
-                <button class='header-button' onClick={toAbout}>
-                    ABOUT ME
-                </button>                
+            <div class="nav">              
             </div>
 
             
