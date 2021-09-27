@@ -2,25 +2,6 @@ import React from 'react';
 
 const Header = () => {
 
-    // const {push} = seHistory()
-
-    const toHome = () => {
-        // push('/Examples')
-    }
-
-    const toAbout = () => {
-        // push('/About')
-    }
-
-    const toMoonraker = () => {
-        // push('/Moonraker')
-    }
-
-    const toContact = () => {
-        // push('/Contact') 
-    
-    }
-
     return(
         <div class="header">
             <img class="header-img" src={'moonraker-horizontal.jpeg'} alt="moonraker logo"/>               
