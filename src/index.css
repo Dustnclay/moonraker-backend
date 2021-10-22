@@ -52,11 +52,6 @@ button{
   align-items: center;
   font-size: 1.2 em;
 }
-@media only screen and (max-width: 550px){
-  .capture-body{
-    flex-direction: column;
-  }
-}
 
 .capture-button{
   padding:.5em 3em .5em 3em;
@@ -213,36 +208,13 @@ text-align: center;
   justify-content:space-around;
   padding-bottom: 1em;
 }
-@media only screen and (max-width: 550px){
-  .moonrakerbody{
-    flex-direction: column-reverse;
-  }
-  .nav {
-    width:80%;
-  }
-  .right-upper ul{
-    margin-top: 0;
-  }
-}
 
 .titleName{
   font-size: 5em; 
   font-weight: 100;
   margin:0%
 }
-@media only screen and (max-width: 550px){
-  .aboutdiv{
-    margin:auto
-  }
 
-  .titleName{
-    font-size: 4em;
-  }
-  
-  .aboutIm{
-    margin:0
-  }
-}
 /* button classes */
 
 .header-button {
@@ -255,11 +227,9 @@ text-align: center;
 /* //image classes// */
 
 .example-image{
-/*   object-fit: cover; */
-  flex: 1 0 21%;
-  width:21%;
-  height:175px;
-  margin:1%
+  width:250px;
+  height:250px;
+  padding:15px;
 }
 
 .footerImage{
@@ -285,7 +255,32 @@ text-align: center;
   font-size: 1.5em;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 550px){
+  .capture-body{
+    flex-direction: column;
+  }
+  
+  .moonrakerbody{
+    flex-direction: column-reverse;
+  }
+  .nav {
+    width:80%;
+  }
+  .right-upper ul{
+    margin-top: 0;
+  }
+    .aboutdiv{
+    margin:auto
+  }
+
+  .titleName{
+    font-size: 4em;
+  }
+  
+  .aboutIm{
+    margin:0
+  }
+  
   .header-img{
     width:17em;
   }
@@ -294,12 +289,5 @@ text-align: center;
   }
   .meaningImg{
     min-width:20em;
-  }
-  .example-image{
-    flex:none;
-    
-    width:9em;
-    height:75px;
-    padding:0em;
   }
 }
