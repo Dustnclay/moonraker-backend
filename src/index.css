@@ -60,6 +60,8 @@ button{
   border-left:0 ;
   border-bottom:.2em black solid;
   margin:8%;
+  color:black;
+  background-color: whitesmoke;
 }
 
 .capture_p{
