@@ -24,7 +24,7 @@ const Capturing = () => {
                     <p class="capture_p">What event do you have coming up?</p>                    
                 </div>
 
-                <button class="capture-button">Lets talk!</button>
+                <a class='capture-button' href="mailto:Lauren@moonraker.media.com" >Let's talk!</a>
             </div>
         </div>
     )
